@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>goe.go.kr(Lesson2)</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <script>
+
+        function even()
+        {
+         let testnum = Number(document.getElementById("num").value);
+         let name = Number(document.getElementById("name").value);  
+         if (testnum % 2 == 0)         
+          {
+          alert(name + "님이 입력하신 숫자 " + testnum + "은(는) 짝수입니다.");
+          }
+          else
+          {
+            alert(name + "님이 입력하신 숫자 " + testnum + "은(는) 홀수입니다.");
+          }
+         
+        }
+    
+        function reset()
+        {
+            document.getElementById("num") = ""
+        }
+     </script>
+    <div class="context1">
+        <h1>홀수인가? 짝수인가?</h1>
+    </div>
+    <div class="nickname">
+        <h1>닉네임을 입력해주세요!(숫자만 가능)</h1>
+        <input type="text" id="name" class="name">
+    </div>
+    <div class="answer1">
+        <h1>숫자를 입력해주세요!</h1>
+        <input type="text" id="num" class="num">
+        <button onclick="even()" class="btn1">확인하기</button>
+        <button onclick="even()"class="btn2">다시하기</button>
+    </div>
+</body>
+</html>

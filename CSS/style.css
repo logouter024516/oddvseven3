@@ -1,0 +1,33 @@
+.context1 {
+    border-radius: 50px;
+    text-align: center;
+    background-color: #2dff5e;
+}
+.answer1 {
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn1 {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.btn2 {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.num {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.name {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #000000
+}
+.nickname {
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+}
